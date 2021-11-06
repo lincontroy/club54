@@ -1,0 +1,447 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from realmove-html.dreamguystech.com/template-3/user-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Nov 2021 15:40:03 GMT -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <title>Real Move</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/plugins/imagehover/imagehover.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="main-wrapper">
+
+    <header class="header">
+      <nav class="navbar navbar-expand-lg header-nav">
+        <div class="navbar-header">
+          <a id="mobile_btn" href="javascript:void(0);">
+            <span class="bar-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+          <a href="index.html" class="navbar-brand logo">
+            <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+          </a>
+        </div>
+        <div class="main-menu-wrapper">
+          <div class="menu-header">
+            <a href="index.html" class="menu-logo">
+              <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <a id="menu_close" class="menu-close" href="javascript:void(0);">
+              <i class="fas fa-times"></i>
+            </a>
+          </div>
+          <ul class="main-nav">
+            <li>
+              <a href="index.html">Home </a>
+            </li>
+            <li class="has-submenu ">
+              <a href="#">Agent <i class="fas fa-chevron-down"></i></a>
+              <ul class="submenu">
+                <li><a class="dropdown-item " href="agent-details.html">Agent Detail</a></li>
+                <li><a class="dropdown-item" href="agent-list.html">Agent List</a></li>
+                <li><a class="dropdown-item" href="agent-dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="my-properties.html">My Properties</a></li>
+                <li><a class="dropdown-item" href="add-properties.html">Add Property</a></li>
+                <li><a class="dropdown-item" href="my-favourites.html">My Favourites</a></li>
+                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
+                <li><a class="dropdown-item" href="notification.html">Notification</a></li>
+                <li><a class="dropdown-item" href="my-packages.html">My Packages</a></li>
+                <li><a class="dropdown-item" href="my-payments.html">My Payment</a></li>
+                <li><a class="dropdown-item" href="my-profile.html">My Profile</a></li>
+              </ul>
+            </li>
+            <li class="has-submenu active">
+              <a href="#">User <i class="fas fa-chevron-down"></i></a>
+              <ul class="submenu">
+                <li><a class="dropdown-item active" href="user-dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="user-properties.html">User Properties</a></li>
+                <li><a class="dropdown-item" href="user-favourites.html">User Favourites</a></li>
+                <li><a class="dropdown-item" href="user-reviews.html">Reviews</a></li>
+                <li><a class="dropdown-item" href="user-notification.html">Notification</a></li>
+                <li><a class="dropdown-item" href="user-packages.html">User Packages</a></li>
+                <li><a class="dropdown-item" href="user-profile.html">User Profile</a></li>
+                <li><a class="dropdown-item" href="user-payment-methods.html">Payment Method</a> </li>
+              </ul>
+            </li>
+            <li class="has-submenu">
+              <a href="#">Property <i class="fas fa-chevron-down"></i></a>
+              <ul class="submenu">
+                <li><a class="dropdown-item" href="property-search.html">Property Search</a></li>
+                <li><a class="dropdown-item" href="property-detail.html">Property Details</a></li>
+                <li><a class="dropdown-item" href="property-compare.html">Property Compare</a></li>
+                <li><a class="dropdown-item" href="location-search.html">Location Search</a></li>
+              </ul>
+            </li>
+            <li class="has-submenu">
+              <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+              <ul class="submenu">
+                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                <li><a class="dropdown-item" href="error.html">Error</a></li>
+                <li><a class="dropdown-item" href="terms.html">Terms</a></li>
+                <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+              </ul>
+            </li>
+            <li class="has-submenu">
+              <a href="#">Blog <i class="fas fa-chevron-down"></i></a>
+              <ul class="submenu">
+                <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                <li><a class="dropdown-item" href="blog-detail.html">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="login-link">
+              <a href="login.html">Login / Signup</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav header-navbar-rht">
+          <li class="nav-item">
+            <a class="nav-link header-login" href="login.html">login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header-login" href="register.html"> Signup </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="breadcrump-section">
+      <div class="container-fluid">
+        <div class="bread-img">
+          <h2>Dashboard</h2>
+          <ul class="breadcrumbs">
+            <li class="breadcrumb-item"><a href="index.html"><img src="assets/img/home1.png" alt="home"></a></li>
+            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="page-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-4 col-xl-4">
+            <div class="user-pic">
+              <div class="card  mb-0">
+                <div class="card-body">
+                  <div class="media">
+                    <div class="user-img mr-3">
+                      <img src="assets/img/img8.png" alt="profile" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="media-body">
+                      <h3>James Peterson</h3>
+                      <h4>Los Angeles</h4>
+                      <div>
+                        <a href="javascript:void(0);">
+                          <i class="fab fa-facebook-f common-icon fb-bg"></i>
+                        </a>
+                        <a href="javascript:void(0);">
+                          <i class="fab fa-instagram common-icon insta-bg"></i>
+                        </a>
+                        <a href="javascript:void(0);">
+                          <i class="fab fa-twitter common-icon twit-bg"></i>
+                        </a>
+                        <a href="javascript:void(0);">
+                          <i class="fab fa-linkedin-in common-icon link-bg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="dashboard-menu">
+              <li class="active">
+                <a href="user-dashboard.html">
+                  <i class="fas fa-chart-line menu-icons"></i>
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="user-properties.html">
+                  <i class="far fa-building menu-icons"></i>
+                  User Properties
+                </a>
+              </li>
+              <li>
+                <a href="user-favourites.html">
+                  <i class="far fa-heart menu-icons"></i>
+                  User Favourites
+                </a>
+              </li>
+              <li>
+                <a href="user-reviews.html">
+                  <i class="far fa-star menu-icons"></i>
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a href="user-notification.html">
+                  <i class="far fa-bell menu-icons"></i>
+                  Notification
+                </a>
+              </li>
+              <li>
+                <a href="user-packages.html">
+                  <i class="fas fa-dollar-sign menu-icons"></i>
+                  User Packages
+                </a>
+              </li>
+              <li>
+                <a href="user-profile.html">
+                  <i class="far fa-user menu-icons"></i>
+                  User Profile
+                </a>
+              </li>
+              <li>
+                <a href="user-payment-methods.html">
+                  <i class="far fa-credit-card menu-icons"></i>
+                  User Payment
+                </a>
+              </li>
+              <li>
+                <a href="index.html">
+                  <i class="fas fa-sign-out-alt menu-icons"></i>
+                  Logout
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-12 col-md-8 col-xl-8">
+            <div class="row">
+              <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="agentdashboard flex-fill">
+                  <div class="agent-setname">
+                    <div class="agent-setnames">
+                      <h2>0</h2>
+                      <label>My Properties</label>
+                    </div>
+                    <div class="agent-setimg">
+                      <img src="assets/img/eye.png" alt="eye">
+                    </div>
+                  </div>
+                  <div class="agent-setlevel">
+                    <label><span><i class="fas fa-caret-down mr-2"></i>0</span>Added Since last month</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="agentdashboard agentset1 flex-fill">
+                  <div class="agent-setname">
+                    <div class="agent-setnames">
+                      <h2>0</h2>
+                      <label>Total value</label>
+                    </div>
+                    <div class="agent-setimg">
+                      <img src="assets/img/star.png" alt="star">
+                    </div>
+                  </div>
+                  <div class="agent-setlevel">
+                    <label><span><i class="fas fa-caret-up mr-2"></i>0%</span>Paid since last month</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="agentdashboard agentset2 flex-fill">
+                  <div class="agent-setname">
+                    <div class="agent-setnames">
+                      <h2>0</h2>
+                      <label> Monthly Pricing</label>
+                    </div>
+                    <div class="agent-setimg">
+                      <img src="assets/img/heart.png" alt="star">
+                    </div>
+                  </div>
+                  <div class="agent-setlevel">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-12">
+                <div class="white-box">
+                  <div class="chart-set">
+                    <h2>View Stastistics </h2>
+                    <div class="chart-select-box">
+                      <select class="select">
+                        <option>Week</option>
+                        <option>Monthly</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div>
+                    <div id="chart"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 col-12">
+              <div class="footer-content">
+                <img src="assets/img/logo.png" alt="logo">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <ul>
+                  <li><a href="#"><img src="assets/img/sociallink1.png" alt="social media"></a></li>
+                  <li><a href="#"><img src="assets/img/sociallink2.png" alt="social media"></a></li>
+                  <li><a href="#"><img src="assets/img/sociallink3.png" alt="social media"></a></li>
+                  <li><a href="#"><img src="assets/img/sociallink4.png" alt="social media"></a></li>
+                  <li><a href="#"><img src="assets/img/sociallink5.png" alt="social media"></a></li>
+                  <li><a href="#"><img src="assets/img/sociallink6.png" alt="social media"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">Info</h2>
+                <ul>
+                  <li>
+                    <a href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="property-compare.html">Compare</a>
+                  </li>
+                  <li>
+                    <a href="contact-us.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="blogs.html">Blogs</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">Account Links</h2>
+                <ul>
+                  <li>
+                    <a href="login.html">Login</a>
+                  </li>
+                  <li>
+                    <a href="reviews.html">Reviews</a>
+                  </li>
+                  <li>
+                    <a href="my-favourites.html">Favourites</a>
+                  </li>
+                  <li>
+                    <a href="register.html">Register</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+              <div class="footer-widget">
+                <h2 class="footer-title">Our Address</h2>
+                <div class="footer-contact-info">
+                  <div class="footer-address">
+                    <span><i class="fas fa-location-arrow"></i></span>
+                    <p>300 S Main St #APT 208, Davison, MI, 48423</p>
+                  </div>
+                  <div class="footer-address">
+                    <span><i class="fas fa-phone-alt"></i></span>
+                    <p class="mb-0"> <span class="d-block">(810) 658-1649</span>
+                      <span class="d-block">(843) 524-0780</span>
+                    </p>
+                  </div>
+                  <p class="mb-0"><i class="fas fa-envelope"></i> <a class="underline-set"><span class="__cf_email__"
+                        data-cfemail="771e191118370512161b1a180112591418591e19">[email&#160;protected]</span></a></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer-bottom">
+        <div class="container">
+
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <div class="copyright-text">
+                  <ul>
+                    <li>
+                      <a class="hover-a" href="privacy.html">Privacy Policy </a>
+                    </li>
+                    <li>
+                      <a class="hover-a" href="terms.html">Terms and Conditions </a>
+                    </li>
+                  </ul>
+                  <p class="mb-0">
+                    &copy; 2020 All Rights Reserved by Dreamguys Technologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+  </div>
+
+  <script data-cfasync="false"
+    src="https://realmove-html.dreamguystech.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+  <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+  <script src="assets/plugins/chart.js/chart.js"></script>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+<!-- Mirrored from realmove-html.dreamguystech.com/template-3/user-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Nov 2021 15:41:16 GMT -->
+
+</html>
